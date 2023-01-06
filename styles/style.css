@@ -33,8 +33,54 @@
     gap: 8px;
     position: absolute;
     top: 450px;
-    left: 50%;
+    left: 45%;
 }
-.center{
-    
+.donate{
+    align-items: center;
+    text-align: center;
+    padding-top: 130px;
+}
+.donate p{
+    padding: 20px 250px 50px 250px;
+}
+.donate form{
+    padding-top: 30px;
+}
+#amount{
+    height: 44px;
+    border: none;
+    overflow: hidden;
+}
+#amount:focus {
+    outline: none;
+}
+#amount::-moz-focus-inner {
+    border: 0;
+}
+#amount option{
+    width: 60px;
+    font-size: 1.2em;
+    padding: 10px 0;
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    color: rgb(204, 204, 0);
+}
+#amount: select{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.orange-btn2{
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 12px;
+    gap: 8px;
+    position: absolute;
+    top: 950px;
+    left: 45%;
 }
