@@ -69,11 +69,7 @@
     border-radius: 5px;
     color: rgb(204, 204, 0);
 }
-#amount: select{
-    background: #FFEEEE;
-    border: 2px solid #FF5959;
-    border-radius: 5px;
-}
+
 .orange-btn2{
     background: #FF5959;
     border-radius: 5px;
@@ -83,4 +79,10 @@
     position: absolute;
     top: 950px;
     left: 45%;
+}
+
+footer{
+    height: 300px;
+    background-color: #121212;
+    margin-top: 100px;
 }
